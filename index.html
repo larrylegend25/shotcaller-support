@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ShotCaller Support</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0d0d0d;
+        --panel: #1c1c1e;
+        --panel-border: #2a2a2e;
+        --text: #ffffff;
+        --muted: #c9c9cf;
+        --subtle: #8a8a91;
+        --accent: #23724d;
+        --accent-bg: #16442f;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: linear-gradient(180deg, #0d0d0d 0%, #141418 48%, #1a1a1f 100%);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+      }
+
+      main {
+        width: min(920px, 100%);
+        margin: 0 auto;
+        padding: 44px 20px 56px;
+      }
+
+      header {
+        margin-bottom: 24px;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(2rem, 7vw, 3.4rem);
+        line-height: 1.05;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 1.1rem;
+      }
+
+      p {
+        margin: 0 0 12px;
+        color: var(--muted);
+      }
+
+      a {
+        color: #a8f0c8;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+
+      .subtitle {
+        color: var(--subtle);
+        font-size: 1rem;
+      }
+
+      .grid {
+        display: grid;
+        gap: 14px;
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--panel-border);
+        border-radius: 16px;
+        padding: 18px;
+        box-shadow: 0 14px 40px rgba(0, 0, 0, 0.28);
+      }
+
+      .contact {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 10px 14px;
+        border-radius: 12px;
+        background: var(--accent-bg);
+        border: 1px solid var(--accent);
+        color: var(--text);
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      ul,
+      ol {
+        margin: 0;
+        padding-left: 1.25rem;
+        color: var(--muted);
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      footer {
+        margin-top: 22px;
+        color: var(--subtle);
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>ShotCaller Support</h1>
+        <p class="subtitle">Help for ShotCaller subscriptions, Apple Watch shot logging, and troubleshooting.</p>
+      </header>
+
+      <section class="grid" aria-label="Support topics">
+        <article class="card">
+          <h2>Contact Support</h2>
+          <p>Need help with ShotCaller? Email support and include your device model, iOS version, and a short description of the issue.</p>
+          <a class="contact" href="mailto:LnDcreative100@gmail.com">LnDcreative100@gmail.com</a>
+        </article>
+
+        <article class="card">
+          <h2>Restore Purchases</h2>
+          <ol>
+            <li>Open ShotCaller.</li>
+            <li>On the ShotCaller Pro screen or in Settings, tap <strong>Restore Purchases</strong>.</li>
+            <li>Make sure you are signed in with the Apple ID used for the original subscription.</li>
+          </ol>
+          <p>If restore does not unlock ShotCaller Pro, confirm the subscription is active in your Apple ID subscriptions and try again.</p>
+        </article>
+
+        <article class="card">
+          <h2>Manage or Cancel Subscription</h2>
+          <ol>
+            <li>Open the iOS <strong>Settings</strong> app.</li>
+            <li>Tap your name at the top.</li>
+            <li>Tap <strong>Subscriptions</strong>.</li>
+            <li>Select <strong>ShotCaller</strong>.</li>
+            <li>Choose the option to manage or cancel your subscription.</li>
+          </ol>
+          <p>Subscription billing and cancellation are handled through Apple.</p>
+        </article>
+
+        <article class="card">
+          <h2>Apple Watch Troubleshooting</h2>
+          <ul>
+            <li>Keep the iPhone app open during a tracking session for the most reliable Watch syncing.</li>
+            <li>Confirm Bluetooth is enabled and the Watch is connected to your iPhone.</li>
+            <li>Restart both the iPhone app and the Watch app if shot actions stop appearing.</li>
+            <li>Make sure ShotCaller is installed on both iPhone and Apple Watch.</li>
+            <li>If Pocket Lock is enabled, use the Watch controls for shot logging while phone controls are locked.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>General Troubleshooting</h2>
+          <ul>
+            <li>Update ShotCaller to the latest version available from the App Store or TestFlight.</li>
+            <li>Force quit and reopen the app if the interface becomes unresponsive.</li>
+            <li>Check your internet connection before starting a subscription purchase or restore.</li>
+            <li>Restart your iPhone if purchase or Watch connection issues continue.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Privacy</h2>
+          <p>Read the ShotCaller privacy policy for details about subscriptions, app data, and third-party services.</p>
+          <a href="privacy.html">View Privacy Policy</a>
+        </article>
+      </section>
+
+      <footer>
+        <p>ShotCaller Support by LnD Creative</p>
+      </footer>
+    </main>
+  </body>
+</html>
