@@ -1,6 +1,6 @@
 # ShotCaller Support
 
-Public GitHub Pages support website for ShotCaller by LnD Creative.
+Public GitHub Pages support website for ShotCaller by LnD Studios.
 
 ## Pages
 
